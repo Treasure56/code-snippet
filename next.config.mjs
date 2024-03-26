@@ -1,7 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  target: "serverless",
-  // Other options
-};
+const nextConfig = {};
 
 export default nextConfig;
