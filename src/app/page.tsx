@@ -6,7 +6,7 @@ export default async function Home() {
 
   const renderedSnippets = snippet.map((snippet) => {
     return (
-      <div className="p-5">
+      <div className="p-5" key={snippet.id}>
         <Link
           href={`/snippets/${snippet.id}`}
           key={snippet.id}
